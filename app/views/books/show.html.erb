@@ -8,8 +8,8 @@
 <div class="reviews">
   <% @reviews.each do |review| %>
     <div class="review">
-      <p class="author"> <%= @review.author %> </p>
-      <p class="comment"> <%= @review.comment %> </p>
+      <p class="author"> <%= review.author %> </p>
+      <p class="comment"> <%= review.comment %> </p>
     </div>
   <% end %>
 </div>
